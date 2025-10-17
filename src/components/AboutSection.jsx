@@ -29,7 +29,7 @@ export const AboutSection = () => {
             <div className="space-y-6">
               <h3 className="text-3xl font-bold text-gray-900 dark:text-white">My Journey</h3>
               <div className="space-y-4 text-gray-600 dark:text-gray-400 leading-relaxed">
-                <p>I specialize in the React ecosystem, creating scalable applications with modern tools like TypeScript, Next.js, and Tailwind CSS.</p>
+                <p>I specialize in the React ecosystem, creating scalable applications with modern tools like React.js, Next.js, and Tailwind CSS.</p>
                 <p>I'm passionate about performance optimization, accessibility, and creating delightful user experiences. My approach combines technical excellence with creative problem-solving.</p>
               </div>
               

@@ -36,9 +36,9 @@ export const HeroSection = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-primary-500 rounded-full mix-blend-multiply filter blur-xl animate-gradient-xy"></div>
-        <div className="absolute top-40 right-10 w-72 h-72 bg-secondary-500 rounded-full mix-blend-multiply filter blur-xl animate-gradient-x" style={{animationDelay: '-2s'}}></div>
-        <div className="absolute -bottom-8 left-20 w-72 h-72 bg-accent-500 rounded-full mix-blend-multiply filter blur-xl animate-gradient-y" style={{animationDelay: '-4s'}}></div>
+        <div className="absolute top-20 left-10 w-72 h-72 bg-amber-800 rounded-full mix-blend-multiply filter blur-xl animate-gradient-xy"></div>
+        <div className="absolute top-40 right-10 w-72 h-72 bg-yellow-500 rounded-full mix-blend-multiply filter blur-xl animate-gradient-x" style={{animationDelay: '-2s'}}></div>
+        <div className="absolute -bottom-8 left-20 w-72 h-72 bg-amber-700 rounded-full mix-blend-multiply filter blur-xl animate-gradient-y" style={{animationDelay: '-4s'}}></div>
       </div>
 
       <div ref={ref} className="text-center px-6 py-20 relative z-10 max-w-5xl mx-auto">
@@ -51,8 +51,8 @@ export const HeroSection = () => {
                 className="w-full h-full rounded-full object-cover"
               />
             </div>
-            <div className="absolute -top-4 -right-4 w-8 h-8 bg-accent-500 rounded-full animate-pulse"></div>
-            <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-secondary-500 rounded-full animate-pulse" style={{animationDelay: '1s'}}></div>
+            <div className="absolute -top-4 -right-4 w-8 h-8 bg-yellow-500 rounded-full animate-pulse"></div>
+            <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-amber-700 rounded-full animate-pulse" style={{animationDelay: '1s'}}></div>
           </div>
 
           <h1 className="text-responsive-xl font-bold text-gray-900 dark:text-white mb-6">
