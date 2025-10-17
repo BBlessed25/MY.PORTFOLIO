@@ -6,7 +6,7 @@ import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 export const HeroSection = () => {
   const [ref, isVisible] = useIntersectionObserver();
   const [typedText, setTypedText] = useState('');
-  const roles = ['Frontend Developer', 'React Specialist', 'UI/UX Enthusiast', 'Code Artist'];
+  const roles = ['Frontend Developer', 'React Specialist', 'Code Artist'];
   const [roleIndex, setRoleIndex] = useState(0);
 
   useEffect(() => {

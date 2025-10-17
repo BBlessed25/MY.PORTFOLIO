@@ -29,19 +29,10 @@ export const AboutSection = () => {
             <div className="space-y-6">
               <h3 className="text-3xl font-bold text-gray-900 dark:text-white">My Journey</h3>
               <div className="space-y-4 text-gray-600 dark:text-gray-400 leading-relaxed">
-                <p>With 5+ years of experience in frontend development, I specialize in the React ecosystem, creating scalable applications with modern tools like TypeScript, Next.js, and Tailwind CSS.</p>
+                <p>I specialize in the React ecosystem, creating scalable applications with modern tools like TypeScript, Next.js, and Tailwind CSS.</p>
                 <p>I'm passionate about performance optimization, accessibility, and creating delightful user experiences. My approach combines technical excellence with creative problem-solving.</p>
               </div>
-              <div className="grid grid-cols-2 gap-6 mt-8">
-                <Card className="p-6 text-center">
-                  <div className="text-3xl font-bold text-amber-600 mb-2">100+</div>
-                  <div className="text-gray-600 dark:text-gray-400">Projects Delivered</div>
-                </Card>
-                <Card className="p-6 text-center">
-                  <div className="text-3xl font-bold text-orange-600 mb-2">5+</div>
-                  <div className="text-gray-600 dark:text-gray-400">Years Experience</div>
-                </Card>
-              </div>
+              
             </div>
           </div>
         </div>
