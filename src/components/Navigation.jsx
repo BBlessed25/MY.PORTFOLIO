@@ -54,7 +54,8 @@ export const Navigation = () => {
             <img 
               src="/profile-image.jpeg" 
               alt="John Ayodeji" 
-              className="w-10 h-10 rounded-full object-cover"
+              className="w-10 h-10 rounded-full object-cover cursor-pointer hover:scale-105 transition-transform duration-200"
+              onClick={() => scrollToSection('home')}
             />
             <div className="text-2xl font-bold bg-gradient-to-r from-amber-600 to-yellow-700 bg-clip-text text-transparent"></div>
           </div>
